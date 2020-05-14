@@ -3,249 +3,10 @@
 <head>
 	<title>Niyotek technologies-- landing page</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
-
-	<style type="text/css">
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
-
-		body {
-			font-family: 'Roboto', sans-serif;
-		}
-
-
-		header {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			border-bottom: 1px solid black;
-			padding: 10px 0 10px 0;
-			background: #293b4e;
-			color: #fff;
-		}
-
-		header .logo {
-			width: 10%;
-			padding: 10px 0 10px 20px;
-		}
-
-		header .icon {
-			width: 30%;
-			padding: 10px 0 10px 20px;
-		}
-
-		.image-slider {
-			display: flex;
-			height: 70vh;
-			justify-content: center;
-			border-bottom: 1px solid black;
-		}
-
-		.image-slider h2 {
-			align-self: center;
-		}
-
-		.small-banner {
-			height: 50px;
-		}
-
-		.small-banner img {
-			width: 100%;
-		}
-
-		.address-banner {
-			margin: 11px;
-			display: flex;
-			justify-content: space-between;
-			margin-top: 5px;
-			border: 1px solid #eee;
-		}
-
-		.address-banner div {
-			background: #e0ddddf2;
-			height: 50px;
-			margin-top: 5px;
-			border: 1px solid #e0ddddf2;
-			border-radius: 5px;
-			padding-left: 3px;
-		}
-
-		.address-banner div:last-child {
-			margin-left: 5px;
-		}
-
-		.main-container {
-			margin: 20px;
-			display: flex;
-			justify-content: space-between;
-		}
-
-		.left-container {
-			display: flex;
-			flex-direction: column;
-			width: 70%;
-		}
-		.main-child {
-			display: flex;
-			justify-content: space-between;
-			margin:20px 0 20px 0;
-		}
-
-		.main-sub-child {
-			display: flex;
-			width: 32%;
-			height: 400px;
-			justify-content: center;
-			border: 1px solid black;
-			position: relative;
-		}
-
-		.main-sub-child img {
-			width: 100%;
-			height: 100%;
-		}
-
-		.main-sub-child img:hover {
-			transform: scale(1.1);
-			transition: .2s ease-in-out;
-		}
-
-		.main-bottom-child {
-			display: flex;
-			width: 100%;
-			height: 200px;
-			margin-top: 50px;
-		}
-
-		.main-bottom-child img {
-			width: 100%;
-			border: 1px solid white;
-			border-radius: 20px;
-		}
-
-		.right-container {
-			display: flex;
-			flex-direction: column;
-			width: 30%;
-		}
-
-		.aside-child {
-			width: 380px;
-			margin:20px 0 20px 20px;
-			display: flex;
-			height: 380px;
-			justify-content: center;
-			border: 1px solid black;
-		}
-
-		.aside-child-1 {
-			width: 380px;
-			margin:20px 0 20px 20px;
-			display: flex;
-			height: 600px;
-			justify-content: center;
-			border: 1px solid black;
-			align-items: center
-		}
-
-		.aside-child h3 {
-			align-self: center;
-		}
-
-		.aside-child-last {
-			width: 380px;
-			margin:20px 0 0 20px;
-			display: flex;
-			height: 200px;
-			justify-content: center;
-			border: 1px solid black;
-			align-items: center
-		}
-		
-		.smooth-trans {
-			position: absolute;
-			background: #e0ddddf2;
-			top: 100%;
-			width: 100%;
-			height: 50px;
-			margin-top: 5px;
-			border: 1px solid #e0ddddf2;
-			border-radius: 5px;
-			padding-left: 3px;
-		}
-
-		.smooth-trans p {
-			line-height: 25px;
-			text-transform: capitalize;
-		}
-
-		.space {
-			margin: 20px 0 0
-		}
-
-		@media (max-width: 576px) {
-		  	/*body {
-				background: green;
-			}
-	*/		
-
-			header .logo {
-				width: 25%;
-				padding: 0 0 0 10px;
-			}
-
-			header .icon {
-				width: 40%;
-				padding: 0 20px 0 0;
-			}
-
-
-			.image-slider {
-				height: 40vh;
-			}
-
-			.image-slider img {
-				width: 100%;
-			}
-
-			.main-container {
-				margin: 10px;
-				display: flex;
-				justify-content: space-between;
-			}
-
-			.main-child {
-				display: flex;
-				justify-content: space-between;
-				margin:10px 0 20px 0;
-			}
-
-			.main-sub-child {
-				display: flex;
-				width: 32%;
-				height: 200px;
-				justify-content: center;
-				border: 1px solid black;
-			}
-
-			.main-sub-child img {
-				width: 100%;
-				height: 100%;
-			}
-
-			.left-container {
-				display: flex;
-				flex-direction: column;
-				width: 100%;
-			}
-
-			.right-container {
-				display: none;
-			}
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+	<script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<header>
@@ -254,17 +15,53 @@
 		<img src="img for powerbank/ples.png" class="icon">
 	</header>
 
-	<div class="image-slider">
-		<img src="img for powerbank/BANNER1.jpg">
+	<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true" uk-slider=" autoplay-interval: 1500">
+
+    <ul class="uk-slider-items uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 30">
+        <li class="uk-width-3-6">
+            <div class="uk-cover-container">
+                <img src="img for powerbank/BANNER1.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-panel"><h1>1</h1></div>
+            </div>
+        </li>
+        <li class="uk-width-3-6">
+            <div class="uk-cover-container">
+                <img src="img for powerbank/BANNER2.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-panel"><h1>2</h1></div>
+            </div>
+        </li>
+        <li class="uk-width-3-6">
+            <div class="uk-cover-container">
+                <img src="img for powerbank/BANNER3.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-panel"><h1>3</h1></div>
+            </div>
+        </li>
+        <li class="uk-width-3-6">
+            <div class="uk-cover-container">
+                <img src="img for powerbank/BANNER4.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-panel"><h1>4</h1></div>
+            </div>
+        </li>
+        <li class="uk-width-3-6">
+            <div class="uk-cover-container">
+                <img src="img for powerbank/BANNER5.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-panel"><h1>5</h1></div>
+            </div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
 	</div>
 	
 	<div class="small-banner"><img src="img for powerbank/BANNER.jpg"></div>
-	<div class="address-banner">
-		<div>b</div>
+	<div class="address-banner space">
+		<div><center><img style="width: 40%; padding-top: 5px;" src="img for powerbank/van-clipart-home-delivery-11.png"></center></div>
 		<div>
 			<address>
-				19 adeniyi street off itire, mechanic surulere lag<br>
-				07017578648, 09057432847
+				<marquee>19 adeniyi street off itire, mechanic surulere lag<br></marquee>
+				<strong>07017578648, 09057432847</strong>
 			</address>
 		</div>
 	</div>
@@ -272,12 +69,12 @@
 	<div class="main-container">
 		<main class="left-container">
 
-			<div class="main-child">
+			<div class="main-child space">
 				<div class="main-sub-child">
 					<img src="img for powerbank/product 1.jpg">
 
 					<div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
@@ -286,7 +83,7 @@
 					<img src="img for powerbank/product 2.jpg">
 
 					<div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
@@ -295,19 +92,19 @@
 					<img src="img for powerbank/product 3.jpg">
 
 					<div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
 
 			</div>
 			<div class="main-bottom-child"><img src="img for powerbank/earn-from-home-4.gif"></div>
-			<div class="main-child">
+			<div class="main-child space">
 				<div class="main-sub-child">
 					<img src="img for powerbank/BULB1.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦600</strong></p>
 					</div>
 				</div>
@@ -315,7 +112,7 @@
 					<img src="img for powerbank/BULB2.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦600</strong></p>
 					</div>
 				</div>
@@ -323,34 +120,34 @@
 					<img src="img for powerbank/BULB3.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦600</strong></p>
 					</div>
 				</div>
 			</div>
 			<div class="main-bottom-child"><img src="img for powerbank/1.gif"></div>
-			<div class="main-child">
+			<div class="main-child space">
 				<div class="main-sub-child">
-					<h3>other products</h3>
+					<img src="img for powerbank/MINI1.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
 				<div class="main-sub-child">
-					<h3>other products</h3>
+					<img src="img for powerbank/MINI2.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
 				<div class="main-sub-child">
-					<h3>other products</h3>
+					<img src="img for powerbank/MINI3.jpg">
                     
                     <div class="smooth-trans">
-						<p>shop now</p>
+						<p style="margin: 0;">shop now</p>
 						<p><strong>₦5,000</strong></p>
 					</div>
 				</div>
@@ -366,35 +163,5 @@
 		</aside>
 	</div>
 
-	
-
-	<script type="text/javascript">
-		// const item = document.querySelector('.main-sub-child');
-		// const child = document.querySelector('.smooth-trans');
-
-		// item.addEventListener('mouseover', () => {
-		// 	let markup = `
-		// 		<div class="smooth-trans">
-		// 			<h3>shop now</h3>
-		// 			<h3>Price: <span class="price-tag"><em>#5,000</em></span></h3>
-		// 		</div>
-		// 	`;
-
-		// 	item.insertAdjacentHTML('beforeend', markup);
-		// })
-
-		// item.addEventListener('mouseout', event => {
-		// 	let markup = `
-		// 		<div class="smooth-trans">
-		// 			<h3>shop now</h3>
-		// 			<h3>Price: <span class="price-tag"><em>#5,000</em></span></h3>
-		// 		</div>
-		// 	`;
-
-		// 	if (event.target.closest('div > .smooth-trans')){
-		// 		child.parentNode.removeChild(child);
-		// 	}
-		// })
-	</script>
 </body>
 </html>
